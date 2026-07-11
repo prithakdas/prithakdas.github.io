@@ -167,7 +167,10 @@ const typingText = document.getElementById("typing-text");
 if (typingText) {
 
     const words = [
-        "Penetration Tester & Security Researcher",
+        "Penetration Tester",
+        "Security Researcher",
+        "VAPT Intern",
+        "CTF Player",
     ];
 
     let wordIndex = 0;
@@ -185,7 +188,7 @@ if (typingText) {
 
             if (charIndex === currentWord.length) {
                 deleting = true;
-                setTimeout(typeEffect, 3000);
+                setTimeout(typeEffect, 2500);
                 return;
             }
 
